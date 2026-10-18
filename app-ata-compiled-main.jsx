@@ -1,0 +1,1 @@
+import { createPrecompiledValidator } from '@rjsf/validator-ata'; import fns from './precompiled.cjs'; import schema from './schema.json'; import { mount } from './form-common.jsx'; mount(createPrecompiledValidator(fns, schema))

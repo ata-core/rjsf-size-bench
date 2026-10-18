@@ -1,0 +1,17 @@
+{
+  "name": "rjsf-size",
+  "private": true,
+  "description": "A react-jsonschema-form sign-up form bundled four ways: no validator, the runtime validators, and ata compiled at build time.",
+  "scripts": { "size": "node run.mjs" },
+  "dependencies": {
+    "@rjsf/core": "6.11.0",
+    "@rjsf/utils": "6.11.0",
+    "@rjsf/validator-ajv8": "6.11.0",
+    "@rjsf/validator-ata": "6.11.0",
+    "ata-validator": "1.55.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "esbuild": "0.28.2"
+  },
+  "overrides": { "ata-validator": "1.55.0" }
+}

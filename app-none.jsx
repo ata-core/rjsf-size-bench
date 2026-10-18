@@ -1,0 +1,1 @@
+import React from 'react'; import { createRoot } from 'react-dom/client'; import Form from '@rjsf/core'; import schema from './schema.json'; createRoot(document.getElementById('root')).render(React.createElement(Form,{schema, validator: { isValid:()=>true, validateFormData:()=>({errors:[],errorSchema:{}}), toErrorList:()=>[], rawValidation:()=>({}), reset(){} }}))
