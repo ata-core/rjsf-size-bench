@@ -8,10 +8,10 @@
     "@rjsf/utils": "6.11.0",
     "@rjsf/validator-ajv8": "6.11.0",
     "@rjsf/validator-ata": "6.11.0",
-    "ata-validator": "1.55.0",
+    "ata-validator": "1.56.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "esbuild": "0.28.2"
   },
-  "overrides": { "ata-validator": "1.55.0" }
+  "overrides": { "ata-validator": "1.56.0" }
 }
